@@ -1,0 +1,79 @@
+//JSON Document
+{
+//Complete User Info
+"userInfo":	
+			[
+			{
+//Unique id
+"uniqueId": "123456789054321", 
+			},
+			{
+//Client email
+"email": "client@gmail.com",
+			},
+			{
+//Client Phone
+"phoneNumber":
+			[
+			{
+"type": "cell",
+"number": "123xxxxxxx"
+			},
+			{
+"type": "AltNumber",			
+"number": "03xxxxxxxx"
+			}
+			]
+			}
+			]
+}
+
+{
+//Current location
+"location": 
+			[
+			{
+"currentLocation":
+			[
+			{
+//Live car location using E7
+"latitudeE7": 40.7144,
+"longitudeE7": 3645.9
+			}
+			]
+			}
+			]
+}
+
+{
+//Events of pickup and dropoff locations
+"eventsLocation":
+			[
+			{
+"pickupLocation":
+			[
+			{
+//Time to track date and time using Unix time in milliseconds
+"timestampMs": "1595790149000",
+"latitudeE7": 40.7144,
+"longitudeE7": 3645.9,
+"street": "abcStreet",
+"address": "4th Street,etc"
+			}
+			]
+			},
+{
+"dropoffLocation":
+			[
+			{
+//Time to track date and time using Unix time in milliseconds
+"timestampMs": "1595790149001",
+"latitudeE7": 40.7144,
+"longitudeE7": 3645.9,
+"street": "defStreet",
+"address": "5th Street,etc"
+			}
+			]
+			}
+			]
+}
